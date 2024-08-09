@@ -1,4 +1,125 @@
+*, html{
+  padding: 0%;
+  margin: 0%;
+}
+.ukurantext {
+    font-size: 40px;
+    font-weight: 500;
+    color: #f8f8f8;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: rgb(204, 49, 62);
+    border-style:hidden;
+    justify-content: flex-end;
+    padding: -100px;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+body {
+    background-image: linear-gradient(to right, rgb(19, 47, 59), rgb(16, 28, 51));
+  }
 
+  #emailnya {
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+
+  .profileguru {
+    justify-content: center;
+
+  }
+
+
+  #activitynavbar {
+    text-decoration: none;
+    border: none;
+  }
+
+
+  #slidenya {
+    
+    justify-content: center;
+  }
+
+  .offcanvas-body {
+    background-color: #102135;
+  }
+
+.offcanvas-header {
+  background-color: #102135;
+}
+
+.gambartk:hover{
+  transition-duration: 5s;
+  transition-timing-function: ease-in;
+}
+
+.gambartk {
+  width: 620px;
+  height: 420px;
+  border-radius: 30px;
+  justify-content: center;
+  text-align: center;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+
+.gambartk5 {
+  width: 720px;
+  height: 420px;
+  border-radius: 30px;
+  justify-content: center;
+  text-align: center;
+  margin-left: 350px;
+  margin-top: 20px;
+}
+
+.profilekepalasekolah {
+  margin-left: 320px;
+  margin-top: -350px;
+
+ 
+}
+
+
+
+.containermap {
+  text-align: center; /* Untuk membuat teks berada di tengah */
+  margin-top: 150px;
+}
+
+.titlemap {
+  font-size: 24px; /* Ukuran teks judul */
+  font-weight: bold; /* Teks judul tebal */
+  color: white;
+}
+
+.subtitlemap {
+  color: white; /* Warna teks subtitle */
+  font-size: 16px; /* Ukuran teks subtitle */
+  margin-bottom: 10px; /* Jarak antara subtitle dan judul */
+}
+
+
+/* Gaya untuk animasi fade-in */
+.fade-in {
+  opacity: 0; /* Awalnya elemen tidak terlihat */
+  transition: opacity 1s ease-in-out; /* Transisi halus selama 1 detik */
+}
+
+.fade-in.show {
+  opacity: 1; /* Elemen terlihat saat di-scroll */
+}*, html{
+  padding: 0%;
+  margin: 0%;
+}
 .ukurantext {
     font-size: 40px;
     font-weight: 500;
